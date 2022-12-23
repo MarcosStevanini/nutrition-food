@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "nutriForYou",
+    "slug": "nutriForYou",
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconNutri.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/nutritionSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e6e6e6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconNutri.png",
+        "backgroundColor": "#e6e6e6"
+      }
+    },
+    "web": {
+      "favicon": "./assets/iconNutri.png"
+    }
+  }
+}
